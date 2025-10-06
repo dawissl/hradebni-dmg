@@ -48,7 +48,8 @@ Cílem je systematický rozvoj digitálních a mediálních kompetencí žáků,
 
 - **Digitální gramotnost a bezpečnost**
   - Digitální identita, hesla, sociální sítě  
-  - Autorské právo, etika, ochrana osobních údajů  
+  - Autorské právo, etika, ochrana osobních údajů
+  - Získávání, reprezentace dat a informací  
 
 - **Získávání a ověřování informací**
   - Kritické vyhledávání a hodnocení zdrojů  
