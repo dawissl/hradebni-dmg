@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - Tvoje Jméno</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navigace -->
+    <nav class="navbar">
+        <div class="container">
+            <h1>Tvoje Jméno</h1>
+            <ul>
+                <li><a href="#about">O mně</a></li>
+                <li><a href="#projekty">Projekty</a></li>
+                <li><a href="#teorie">Teorie</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Sekce O mně -->
+    <section id="about" class="section">
+        <div class="container">
+            <h2>O mně</h2>
+            <p>Student technického lycea se zaměřením na programování a testování. 
+               Za 4 roky studia jsem prošel 8 odbornými bloky od webového vývoje 
+               po mobilní aplikace.</p>
+            <div class="links">
+                <a href="https://github.com/tvoje-jmeno">GitHub</a>
+                <a href="mailto:tvuj@email.cz">Email</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sekce Projekty -->
+    <section id="projekty" class="section">
+        <div class="container">
+            <h2>Projekty</h2>
+            
+            <!-- Projekt 1 -->
+            <article class="projekt">
+                <h3>1. pololetí - Webový formulář</h3>
+                <img src="https://raw.githubusercontent.com/tvoje-jmeno/lyceum-projekty/main/1-pololeti/screenshot.png" 
+                     alt="Screenshot projektu">
+                <p><strong>Technologie:</strong> C#, WinForms</p>
+                <p>Registrační formulář s validací emailu, kontrolou silného hesla 
+                   a ukládáním dat do textového souboru.</p>
+                <a href="https://github.com/tvoje-jmeno/lyceum-projekty/tree/main/1-pololeti" 
+                   class="btn">Zobrazit kód →</a>
+            </article>
+
+            <!-- Projekt 2 -->
+            <article class="projekt">
+                <h3>2. pololetí - Databázová aplikace</h3>
+                <!-- ... -->
+            </article>
+
+            <!-- Opakuješ pro všech 8 bloků -->
+        </div>
+    </section>
+
+    <!-- Sekce Teorie -->
+    <section id="teorie" class="section">
+        <div class="container">
+            <h2>Slovník pojmů</h2>
+            
+            <!-- Filtr (volitelné, přidáš JS později) -->
+            <div class="filter">
+                <button class="filter-btn active" data-filter="all">Vše</button>
+                <button class="filter-btn" data-filter="web">Web</button>
+                <button class="filter-btn" data-filter="db">Databáze</button>
+                <button class="filter-btn" data-filter="oop">OOP</button>
+            </div>
+
+            <!-- Slovník -->
+            <dl class="slovnik">
+                <dt data-category="web">API</dt>
+                <dd>Application Programming Interface - rozhraní pro komunikaci 
+                    mezi aplikacemi. Používali jsme v projektu REST API.</dd>
+
+                <dt data-category="db">CRUD</dt>
+                <dd>Create, Read, Update, Delete - základní operace s daty 
+                    v databázi.</dd>
+
+                <dt data-category="oop">Dědičnost</dt>
+                <dd>Mechanismus v OOP, kdy třída přebírá vlastnosti a metody 
+                    z jiné třídy (např. třída Pes dědí z třídy Zvíře).</dd>
+            </dl>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Tvoje Jméno | Technické lyceum</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
