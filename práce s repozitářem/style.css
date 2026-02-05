@@ -1,0 +1,207 @@
+﻿/* === ZÁKLADNÍ NASTAVENÍ === */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background: #f9f9f9;
+}
+
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+/* === NAVIGACE === */
+.navbar {
+    background: #2c3e50;
+    color: white;
+    padding: 1rem 0;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.navbar .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.navbar h1 {
+    font-size: 1.5rem;
+}
+
+.navbar ul {
+    display: flex;
+    list-style: none;
+    gap: 2rem;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    transition: opacity 0.3s;
+    font-weight: 500;
+}
+
+.navbar a:hover {
+    opacity: 0.8;
+}
+
+/* === SEKCE === */
+.section {
+    padding: 4rem 0;
+    min-height: 50vh;
+}
+
+.section:nth-child(even) {
+    background: white;
+}
+
+.section h2 {
+    margin-bottom: 2rem;
+    color: #2c3e50;
+    border-bottom: 3px solid #3498db;
+    padding-bottom: 0.5rem;
+    font-size: 2rem;
+}
+
+/* === O MNĚ === */
+#about .links {
+    margin-top: 1.5rem;
+}
+
+#about .links a {
+    display: inline-block;
+    margin-right: 1rem;
+    padding: 0.5rem 1rem;
+    background: #3498db;
+    color: white;
+    text-decoration: none;
+    border-radius: 4px;
+    transition: background 0.3s;
+}
+
+#about .links a:hover {
+    background: #2980b9;
+}
+
+/* === PROJEKTY === */
+.projekt {
+    background: white;
+    padding: 2rem;
+    margin-bottom: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.projekt:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+}
+
+.projekt h3 {
+    color: #2c3e50;
+    margin-bottom: 0.5rem;
+}
+
+.projekt h4 {
+    color: #3498db;
+    margin-bottom: 1rem;
+    font-size: 1.3rem;
+}
+
+.projekt img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 4px;
+    margin: 1rem 0;
+    border: 1px solid #ddd;
+}
+
+.projekt p {
+    margin: 0.5rem 0;
+}
+
+.btn {
+    display: inline-block;
+    padding: 0.5rem 1.5rem;
+    background: #3498db;
+    color: white;
+    text-decoration: none;
+    border-radius: 4px;
+    margin-top: 1rem;
+    transition: background 0.3s;
+    font-weight: 500;
+}
+
+.btn:hover {
+    background: #2980b9;
+}
+
+/* === SLOVNÍK === */
+.slovnik {
+    margin-top: 2rem;
+    background: white;
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.slovnik dt {
+    font-weight: bold;
+    color: #2c3e50;
+    margin-top: 1.5rem;
+    font-size: 1.2rem;
+    border-left: 4px solid #3498db;
+    padding-left: 1rem;
+}
+
+.slovnik dt:first-child {
+    margin-top: 0;
+}
+
+.slovnik dd {
+    margin-left: 2rem;
+    margin-top: 0.5rem;
+    color: #555;
+}
+
+/* === FOOTER === */
+footer {
+    background: #2c3e50;
+    color: white;
+    text-align: center;
+    padding: 2rem 0;
+    margin-top: 2rem;
+}
+
+/* === RESPONZIVITA === */
+@media (max-width: 768px) {
+    .navbar .container {
+        flex-direction: column;
+        gap: 1rem;
+    }
+    
+    .navbar ul {
+        gap: 1rem;
+    }
+    
+    .section {
+        padding: 2rem 0;
+    }
+    
+    .projekt {
+        padding: 1.5rem;
+    }
+}

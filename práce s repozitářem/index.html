@@ -1,0 +1,88 @@
+﻿<!DOCTYPE html>
+<html lang="cs">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - Technické lyceum</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navigace -->
+    <nav class="navbar">
+        <div class="container">
+            <h1>Moje Portfolio</h1>
+            <ul>
+                <li><a href="#about">O mně</a></li>
+                <li><a href="#projekty">Projekty</a></li>
+                <li><a href="#teorie">Teorie</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Sekce O mně -->
+    <section id="about" class="section">
+        <div class="container">
+            <h2>O mně</h2>
+            <p>Student technického lycea se zaměřením na programování. 
+               Za 4 roky studia pracuji na 8 odborných blocích pokrývajících 
+               různé oblasti IT.</p>
+            <div class="links">
+                <a href="https://github.com/tvoje-jmeno/TL-ODB">GitHub repositář</a>
+                <a href="mailto:tvuj@email.cz">Email</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sekce Projekty -->
+    <section id="projekty" class="section">
+        <div class="container">
+            <h2>Projekty</h2>
+            
+            <!-- Projekt 1 - vzorový příklad -->
+            <article class="projekt">
+                <h3>Školní rok 2025/2026 - 1. pololetí</h3>
+                <h4>Webový formulář</h4>
+                <img src="https://raw.githubusercontent.com/tvoje-jmeno/TL-ODB/main/2025-2026/1-pololeti/screenshot.png" 
+                     alt="Screenshot projektu" 
+                     loading="lazy">
+                <p><strong>Technologie:</strong> C#, Windows Forms</p>
+                <p>Registrační formulář s validací emailu, kontrolou silného hesla 
+                   a ukládáním dat do textového souboru.</p>
+                <a href="https://github.com/tvoje-jmeno/TL-ODB" 
+                   class="btn">Zobrazit repositář →</a>
+            </article>
+
+            <!-- Další projekty přidáš stejným způsobem -->
+        </div>
+    </section>
+
+    <!-- Sekce Teorie -->
+    <section id="teorie" class="section">
+        <div class="container">
+            <h2>Slovník pojmů</h2>
+            
+            <dl class="slovnik">
+                <dt>API</dt>
+                <dd>Application Programming Interface - rozhraní pro komunikaci 
+                    mezi aplikacemi. Používali jsme v projektu REST API.</dd>
+
+                <dt>CRUD</dt>
+                <dd>Create, Read, Update, Delete - základní operace s daty 
+                    v databázi.</dd>
+
+                <dt>Git</dt>
+                <dd>Distribuovaný verzovací systém pro správu zdrojového kódu. 
+                    Umožňuje sledovat změny a spolupracovat na projektech.</dd>
+                
+                <!-- Další pojmy přidáš zde -->
+            </dl>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Portfolio TL | Technické lyceum</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
