@@ -12,7 +12,8 @@
 
 ### Projektová a týmová práce (váha 7–10)
 - Projekty vycházejí z probíraných témat (např. prezentace, databáze, grafika, kyberbezpečnost, mediální rozbory).  
-- Projekty probíhají obvykle několik týdnů, podporují týmovou spolupráci a kreativitu.  
+- Projekty probíhají obvykle několik týdnů, podporují týmovou spolupráci a kreativitu.
+- Pokud projekt není odevzdán, nemusí být k dispozici dostatek podkladů pro objektivní posouzení těchto dovedností; v takovém případě je stanoven náhradní způsob jejich ověření.
 - V některých pololetích může být projekt jednodušší nebo nemusí být zadán – v takovém případě se tato část hodnocení neuplatňuje.
 
 ### Krátké praktické úkoly a cvičení (váha 3–5)
