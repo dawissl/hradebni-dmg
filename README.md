@@ -5,6 +5,7 @@
 - Prezentace z hodin (pdf, ppt)
 - Zadání a řešení praktických úkolů a projektů
 - Dodatečné materiály k výuce (odkazy, články, videa, infografiky)
+- [Zásady používání AI nástrojů](./AI.md)
 
 ---
 
